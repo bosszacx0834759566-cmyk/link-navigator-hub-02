@@ -47,7 +47,7 @@ function RailButton({
       aria-label={item.label}
       aria-pressed={isActive}
       className={cn(
-        'group relative flex h-[38px] w-[38px] items-center justify-center rounded-[10px] outline-none transition-all duration-150',
+        'group relative flex h-[32px] w-[32px] items-center justify-center rounded-[8px] outline-none transition-all duration-150',
         'focus-visible:ring-1 focus-visible:ring-sky-400/60',
         view === '3d'
           ? isActive
