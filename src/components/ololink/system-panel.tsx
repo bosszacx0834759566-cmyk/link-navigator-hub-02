@@ -13,7 +13,7 @@ import {
   type AssetKind,
 } from '@/lib/ololink';
 import type { OloLinkState, RailId } from '@/hooks/use-ololink';
-import { SYSTEM_TABS } from './system-rail';
+import { SYSTEM_TABS } from './system-tabs';
 
 
 const HEALTH_TONE: Record<Asset['health'], string> = {
