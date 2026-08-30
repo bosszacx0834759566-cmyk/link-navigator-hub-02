@@ -58,7 +58,7 @@ function RailButton({
             : 'text-muted-foreground/60 hover:bg-white/[0.05] hover:text-foreground active:scale-[0.96]'
       )}
     >
-      <Icon className="h-[16px] w-[16px]" strokeWidth={1.5} />
+      <Icon className="h-[14px] w-[14px]" strokeWidth={1.5} />
 
       <span className="pointer-events-none absolute left-[52px] z-50 hidden -translate-x-1 whitespace-nowrap rounded-md border border-white/[0.08] bg-[#0a0f1c]/95 px-2.5 py-1.5 opacity-0 shadow-[0_10px_30px_-12px_rgba(0,0,0,0.9)] backdrop-blur-xl transition-all duration-150 group-hover:translate-x-0 group-hover:opacity-100 md:block">
         <span className="block text-[10px] uppercase tracking-[0.2em] text-foreground">
@@ -97,7 +97,7 @@ export function SystemRail({ state }: { state: OloLinkState }) {
               aria-pressed={active}
               aria-label={m.label}
               className={cn(
-                'flex h-[38px] w-[38px] items-center justify-center rounded-[10px] transition-all duration-150',
+                'flex h-[32px] w-[32px] items-center justify-center rounded-[8px] transition-all duration-150',
                 'focus-visible:ring-1 focus-visible:ring-sky-400/60',
                 state.view === '3d'
                   ? active
@@ -108,7 +108,7 @@ export function SystemRail({ state }: { state: OloLinkState }) {
                     : 'text-muted-foreground/60 hover:bg-white/[0.05] hover:text-foreground active:scale-[0.96]'
               )}
             >
-              <Icon className="h-[16px] w-[16px]" strokeWidth={1.5} />
+              <Icon className="h-[14px] w-[14px]" strokeWidth={1.5} />
             </button>
           );
         })}
