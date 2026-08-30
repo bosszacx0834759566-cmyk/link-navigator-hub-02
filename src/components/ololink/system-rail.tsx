@@ -2,7 +2,6 @@
 
 import {
   Satellite,
-  Waypoints,
   Plane,
   Drone,
   SatelliteDish,
